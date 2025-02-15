@@ -298,6 +298,7 @@ p {
 
     margin-bottom: 1rem;
     font-size: 15px;
+    padding: 10px;
 
 }
 
@@ -929,10 +930,6 @@ progress {
     width: 25%
 }
 
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%
-}
 
 .col-5 {
     flex: 0 0 auto;
@@ -1563,10 +1560,7 @@ progress {
         width: 25%
     }
 
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%
-    }
+   
 
     .col-lg-5 {
         flex: 0 0 auto;
@@ -7992,7 +7986,8 @@ fieldset:disabled .btn {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030
+    z-index: 1030;
+    bottom: 33rem;
 }
 
 .fixed-bottom {
@@ -9023,9 +9018,7 @@ fieldset:disabled .btn {
 
 
 
-.mb-5 {
-    margin-bottom: 3rem !important
-}
+
 
 .mb-auto {
     margin-bottom: auto !important
